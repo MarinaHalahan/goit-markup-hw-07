@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    
+    <header class="header-line">
+        <div class="container nav-box">
+            <a href="./index.html" class="logo link nav-box_logo ">Web<span class="nav-box_logo nav-box_logo--accent"> Studio</span></a>
+            <nav class="site-nav">
+                <ul class="list site-nav_list">
+                    <li class="site-nav_element"><a href="./index.html" class="site-nav_link link">Студия</a></li>
+                    <li class="site-nav_element"><a href="./portfolio.html" class="site-nav_link link site-nav_link--current">Портфолио</a></li>
+                    <li class="site-nav_element"><a href="#" class="site-nav_link link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <ul class="list auth-box">
+                <li class="auth-box_element">
+                    <a href="mailto:info@devstudio.com" class="link auth-box_item">
+                        <svg class="icon auth-box_icons" width="16" height="12">
+                            <use href="./images/sprite.svg#envelope-hover"></use>
+                        </svg>
+                        info@devstudio.com</a>
+                </li>
+                <li class="auth-box-element">
+                    <a href="tel:+380961111111" class="link auth-box_item">
+                        <svg class="icon auth-box_icons" width="10" height="16">
+                            <use href="./images/sprite.svg#smartphone"></use>
+                        </svg>
+                        +380961111111</a>
+                </li>
+               
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!-- Примеры работ -->
+       <section class="section">
+           <div class="container filter">
+                <h1  class="visually-hidden">Примеры работ</h1>
+                <ul class="list filter_list">
+                        <li class="filter_element" ><button type="button" class="btn filter_btn">Все</button></li>
+                        <li class="filter_element" ><button type="button" class="btn filter_btn">Веб сайты</button></li>
+                        <li class="filter_element" ><button type="button" class="btn filter_btn">Приложения</button></li>
+                        <li class="filter_element" ><button type="button" class="btn filter_btn">Дизайн</button></li>
+                        <li class="filter_element" ><button type="button" class="btn filter_btn">Маркетинг</button></li>
+                </ul>
+            
+                <ul class=" list examples">
+                    <li class="examples_item">
+                        
+                            <a href="#" class="link examples_link">
+                                <div class="examples_wrap">
+                                    <img src="./images/portfolio-examples/examples-1.jpg" class="examples_img" alt="Главная страница сайта Технокряк" width="370">
+                                    <div class="examples_overlay">
+                                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                                            шпионажа и атак на защищённые сервера конкурентов.</p>
+                                    </div>
+                                </div>
+                                <div class="examples_content">
+                                    <h2 class="examples_title">Технокряк</h2>
+                                    <p class="examples_text">Веб-сайт</p>
+                                </div>
+                                
+                            </a>
+                       
+                    </li>
+                    <li class="examples_item">
+                        <a href="#" class="link examples_link">
+                            <div class="examples_wrap">
+                                <img src="./images/portfolio-examples/examples-2.jpg" class="examples_img" alt="Постер с баскетболистами" width="370">
+                                <div class="examples_overlay">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat, dolor eveniet optio commodi dicta. Quasi sequi eos molestiae modi, corrupti nam itaque aspernatur fuga iure doloremque rem ea quo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples_content">
+                                <h2 class="examples_title">Постер New Orlean vs Golden Star</h2>
+                                <p class="examples_text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples_item">
+                        <a href="#" class="link examples_link">
+                            <div class="examples_wrap">
+                                <img src="./images/portfolio-examples/examples-3.jpg" class="examples_img" alt="Логотип ресторана Seafood" width="370">
+                                <div class="examples_overlay">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat, dolor eveniet optio commodi dicta.
+                                        Quasi sequi eos molestiae modi, corrupti nam itaque aspernatur fuga iure doloremque rem ea quo.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="examples_content">
+                                <h2 class="examples_title">Ресторан Seafood</h2>
+                                <p class="examples_text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples_item">
+                        <a href="#" class="link examples_link">
+                            <div class="examples_wrap">
+                                <img src="./images/portfolio-examples/examples-4.jpg" class="examples_img" alt="Наушники" width="370">
+                                <div class="examples_overlay">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat, dolor eveniet optio commodi dicta.
+                                        Quasi sequi eos molestiae modi, corrupti nam itaque aspernatur fuga iure doloremque rem ea quo.
+                                    </p>
+                                </div>  
+                            </div>
+                            <div class="examples_content">
+                                <h2 class="examples_title">Проект Prime</h2>
+                                <p class="examples_text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples_item">
+                        <a href="#" class="link examples_link">
+                            <div class="examples_wrap">
+                                <img src="./images/portfolio-examples/examples-5.jpg" class="examples_img" alt="Коробки" width="370">
+                                <div class="examples_overlay">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat, dolor eveniet optio commodi dicta.
+                                            Quasi sequi eos molestiae modi, corrupti nam itaque aspernatur fuga iure doloremque rem ea quo.
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="examples_content">
+                                <h2 class="examples_title">Проект Boxes</h2>
+                                <p class="examples_text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples_item">
+                        <a href="#" class="link examples_link">
+                            <div class="examples_wrap">
+                                <img src="./images/portfolio-examples/examples-6.jpg" class="examples_img" alt="Веб-сайт на экране" width="370">
+                                <div class="examples_overlay">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat, dolor eveniet optio commodi dicta.
+                                            Quasi sequi eos molestiae modi, corrupti nam itaque aspernatur fuga iure doloremque rem ea quo.
+                                        </p>
+                                </div>
+                                </div>
+                            <div class="examples_content">
+                                <h2 class="examples_title">Inspiration has no Borders</h2>
+                                <p class="examples_text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples_item">
+                        <a href="#" class="link examples_link">
+                            <div class="examples_wrap">
+                                <img src="./images/portfolio-examples/examples-7.jpg" class="examples_img" alt="Пример дизайна разворота журнала" width="370">
+                                <div class="examples_overlay">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat, dolor eveniet optio commodi dicta.
+                                            Quasi sequi eos molestiae modi, corrupti nam itaque aspernatur fuga iure doloremque rem ea quo.
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="examples_content">
+                                <h2 class="examples_title">Издание Limited Edition</h2>
+                                <p class="examples_text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples_item">
+                        <a href="#" class="link examples_link">
+                            <div class="examples_wrap">
+                                <img src="./images/portfolio-examples/examples-8.jpg" class="examples_img" alt="Ярлык с названием проекта" width="370">
+                                <div class="examples_overlay">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat, dolor eveniet optio commodi dicta.
+                                            Quasi sequi eos molestiae modi, corrupti nam itaque aspernatur fuga iure doloremque rem ea quo.
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="examples_content">
+                                <h2 class="examples_title">Проект LAB</h2>
+                                <p class="examples_text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples_item">
+                        <a href="#" class="link examples_link">
+                            <div class="examples_wrap">
+                                <img src="./images/portfolio-examples/examples-9.jpg" class="examples_img" alt="Работа с приложением" width="370">
+                                <div class="examples_overlay">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat, dolor eveniet optio commodi dicta.
+                                            Quasi sequi eos molestiae modi, corrupti nam itaque aspernatur fuga iure doloremque rem ea quo.
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="examples_content">
+                                <h2 class="examples_title">Growing Business</h2>
+                                <p class="examples_text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+       </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-element">
+                    <a href="./index.html" class="logo footer_logo link">Web<span class="footer_logo--accent">Studio</span></a>
+            
+                    <address>
+                        <ul class="list">
+                            <li class="adress-list"><a href="https://goo.gl/maps/gnvSUfkHdjVAwian9" class="link contacts address">г.
+                                    Киев, пр-т Леси Украинки, 26</a></li>
+                            <li class="adress-list"><a href="mailto:info@devstudio.com"
+                                    class="link contacts info">info@devstudio.com</a></li>
+                            <li class="adress-list"><a href="tel:+380961111111" class="link contacts info">+380961111111</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="join">
+                    <h3 class="join-title">присоединяйтесь</h3>
+                    <ul class="join-list-icon">
+                        <li class="list join-icon-element">
+                            <a href="#" class="social-icon-link">
+                                <svg class="social-join-icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="list join-icon-element">
+                            <a href="#" class="social-icon-link">
+                                <svg class="social-join-icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="list join-icon-element">
+                            <a href="#" class="social-icon-link">
+                                <svg class="social-join-icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="list join-icon-element">
+                            <a href="#" class="social-icon-link">
+                                <svg class="social-join-icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+            
+                </div>
+                <div class="subscription">
+                    <h3 class="subscription-title">Подпишитесь на рассылку</h3>
+                    <form>
+                        <input class="email-send" type="email" name="email" placeholder="E-mail">
+                
+                        <button class="btn subscription-btn" type="submit">
+                            <span class="subscription-text">Подписаться</span>
+                            <svg class="icon-send" width="24" height="24">
+                                <use href="./images/sprite.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                
+                
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
