@@ -186,8 +186,8 @@ img {
   color: var(--accent-text-color);
 }
 
-.auth-box-link:hover,
-.auth-box-link:focus {
+.auth-box_item:hover,
+.auth-box_item:focus {
   color: var(--accent-text-color);
   fill: var(--accent-text-color);
 }
