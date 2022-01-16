@@ -1,0 +1,49 @@
+.nav-box {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav_list {
+  margin-right: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.site-nav_element:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav_link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--primary-title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+}
+.site-nav_link--current {
+  position: relative;
+  color: var(--accent-text-color);
+
+  &::after {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: var(--accent-text-color);
+    border: 2px solid var(--accent-text-color);
+    border-radius: 2px;
+  }
+}
