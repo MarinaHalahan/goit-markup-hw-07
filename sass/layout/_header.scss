@@ -6,11 +6,11 @@
   margin-left: auto;
   margin-right: 0px;
 
-  &_element:not(:last-child) {
+  &__element:not(:last-child) {
     margin-right: 30px;
   }
 }
-.auth-box_item {
+.auth-box__item {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -29,7 +29,7 @@
     fill: var(--accent-text-color);
   }
 }
-.auth-box_icons {
+.auth-box__icons {
   margin-right: 10px;
   fill: currentColor;
 }

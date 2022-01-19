@@ -3,17 +3,17 @@
   align-items: center;
 }
 
-.site-nav_list {
+.site-nav__list {
   margin-right: 0px;
   padding: 0px;
   display: flex;
 }
 
-.site-nav_element:not(:last-child) {
+.site-nav__element:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav_link {
+.site-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -30,7 +30,7 @@
     color: var(--accent-text-color);
   }
 }
-.site-nav_link--current {
+.site-nav__link--current {
   position: relative;
   color: var(--accent-text-color);
 

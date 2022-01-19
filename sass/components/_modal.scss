@@ -8,7 +8,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .hero_btn:focus + & {
+  .hero__btn:focus + & {
     animation: animate75 1000ms linear;
   }
 
@@ -63,13 +63,13 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.close-btn_icon {
+.close-btn__icon {
   fill: rgba(0, 0, 0, 1);
   .close-btn:hover & {
     fill: var(--accent-text-color);
   }
 }
-.modal_title {
+.modal__title {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.17;
@@ -77,19 +77,20 @@
 
 .contact-form {
   margin-top: 12px;
-
-  &_label {
-    position: relative;
-    display: block;
-    margin-bottom: 10px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color: var(--primary-text-color);
-  }
 }
-.contact-form_content {
+
+.contact-form__label {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--primary-text-color);
+}
+
+.contact-form__content {
   width: 100%;
   height: 40px;
   margin-top: 4px;
@@ -106,7 +107,7 @@
   }
 }
 
-.contact-form_icon {
+.contact-form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -114,7 +115,7 @@
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .contact-form_content:focus + & {
+  .contact-form__content:focus + & {
     fill: var(--accent-text-color);
   }
 }
@@ -136,7 +137,7 @@
     color: rgba(117, 117, 117, 0.5);
   }
 }
-.contact-form_checkbox-label {
+.contact-form__checkbox-label {
   @include centered-content;
   margin-bottom: 30px;
 
@@ -155,18 +156,18 @@
     border-radius: 3px;
   }
 }
-.contact-form_check-agree:checked + .contact-form_checkbox-label::before {
+.contact-form__check-agree:checked + .contact-form__checkbox-label::before {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='16' height='15' rx='2' fill='%232196F3'/%3e%3cpath d='m3.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3e%3c/svg%3e");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border: currentColor;
 }
-.contact-form_policy-link {
+.contact-form__policy-link {
   color: var(--accent-text-color);
 }
 
-.contact-form_btn {
+.contact-form__btn {
   display: block;
   margin: auto;
 
