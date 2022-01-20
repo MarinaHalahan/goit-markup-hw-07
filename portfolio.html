@@ -17,27 +17,27 @@
 <body>
     
     <header class="header-line">
-        <div class="container nav-box">
-            <a href="./index.html" class="logo nav-box__logo ">Web<span class=" nav-box__logo--accent">Studio</span></a>
+        <div class="container container__header-line">
+            <a href="./index.html" class="logo logo__header-line">Web<span class="logo-dark">Studio</span></a>
             <nav class="site-nav">
                 <ul class="site-nav__list">
-                    <li class="site-nav__element"><a href="./index.html" class="site-nav__link">Студия</a></li>
-                    <li class="site-nav__element"><a href="./portfolio.html" class="site-nav__link  site-nav__link--current">Портфолио</a></li>
-                    <li class="site-nav__element"><a href="#contacts" class="site-nav__link">Контакты</a></li>
+                    <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
+                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link  site-nav__link--current">Портфолио</a></li>
+                    <li class="site-nav__item"><a href="#contacts" class="site-nav__link">Контакты</a></li>
                 </ul>
             </nav>
 
             <ul class="auth-box">
-                <li class="auth-box__element">
-                    <a href="mailto:info@devstudio.com" class="link auth-box__item">
-                        <svg class="icon auth-box__icons" width="16" height="12">
+                <li class="auth-box__item">
+                    <a href="mailto:info@devstudio.com" class="link auth-box__link">
+                        <svg class="icon auth-box__icon" width="16" height="12">
                             <use href="./images/sprite.svg#envelope-hover"></use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li class="auth-box__element">
-                    <a href="tel:+380961111111" class="link auth-box__item">
-                        <svg class="icon auth-box__icons" width="10" height="16">
+                <li class="auth-box__item">
+                    <a href="tel:+380961111111" class="link auth-box__link">
+                        <svg class="icon auth-box__icon" width="10" height="16">
                             <use href="./images/sprite.svg#smartphone"></use>
                         </svg>
                         +380961111111</a>
@@ -49,9 +49,9 @@
     <main>
         <!-- Примеры работ -->
        <section class="section">
-           <div class="container filter">
+           <div class="container">
                 <h1  class="visually-hidden">Примеры работ</h1>
-                <ul class="filter__list">
+                <ul class="filter">
                         <li class="filter__element" ><button type="button" class="btn filter__btn">Все</button></li>
                         <li class="filter__element" ><button type="button" class="btn filter__btn">Веб сайты</button></li>
                         <li class="filter__element" ><button type="button" class="btn filter__btn">Приложения</button></li>
@@ -215,18 +215,18 @@
         <div class="container">
             <div class="footer__content">
                 <div class="footer__element">
-                    <a href="./index.html" class="logo footer__logo">Web<span
-                            class=" footer__logo--accent">Studio</span>
+                    <a href="./index.html" class="logo logo-footer">Web<span
+                            class="logo-light">Studio</span>
                     </a>
     
                     <address id="contacts">
                         <ul class="adress-list">
                             <li class="adress-list__item"><a href="https://goo.gl/maps/gnvSUfkHdjVAwian9"
-                                    class="contacts address">г. Киев, пр-т Леси Украинки, 26</a></li>
+                                    class="adress-list__link adress-list__link--light">г. Киев, пр-т Леси Украинки, 26</a></li>
                             <li class="adress-list__item"><a href="mailto:info@devstudio.com"
-                                    class="contacts info">info@devstudio.com</a></li>
+                                    class="adress-list__link adress-list__link--dark">info@devstudio.com</a></li>
                             <li class="adress-list__item"><a href="tel:+380961111111"
-                                    class=" contacts info">+380961111111</a></li>
+                                    class="adress-list__link adress-list__link--dark">+380961111111</a></li>
                         </ul>
                     </address>
                 </div>

@@ -6,21 +6,21 @@
 
   color: var(--accent-text-color);
 }
-.nav-box__logo {
+.logo__header-line {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
+}
 
-  &--accent {
-    color: var(--primary-title-color);
-  }
+.logo-dark {
+  color: var(--primary-title-color);
 }
 //Лого в футере
 
-.footer__logo {
+.logo-footer {
   display: block;
   margin-bottom: 20px;
-  &--accent {
-    color: var(--primary-white-color);
-  }
+}
+.logo-light {
+  color: var(--primary-white-color);
 }

@@ -18,7 +18,7 @@
 .adress-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.contacts {
+.adress-list__link {
   display: block;
 
   font-style: normal;
@@ -26,10 +26,10 @@
   font-size: 14px;
   line-height: 1.71;
 }
-.address {
+.adress-list__link--light {
   color: var(--primary-white-color);
 }
-.info {
+.adress-list__link--dark {
   color: rgba(255, 255, 255, 0.6);
 }
 
